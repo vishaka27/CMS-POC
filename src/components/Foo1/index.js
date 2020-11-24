@@ -1,11 +1,11 @@
 import React from "react";
 
+import "./foo1.scss";
+
 function Foo1(props) {
     return (
         <div className="foo1">
-            <h2>{props.block.headline}</h2>
-                <img src={props.block.headline} />
-            <hr />
+            <img src={props.block.headline} />
         </div>
     )
 }
