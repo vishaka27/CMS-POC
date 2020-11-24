@@ -13,7 +13,7 @@ function SliderDemo(props) {
     <div className="slider-container">
          <Slider {...settings}>
             {slides.map(comp => 
-                <div>
+                <div key={comp.img}>
                     <img src={comp.img} />
                 </div>
             )}
