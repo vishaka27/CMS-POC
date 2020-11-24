@@ -25,11 +25,6 @@
                 ]
         },
         {
-            "_uid": "2",
-            "component": "foo",
-            "headline": "Foo"
-        },
-        {
             "_uid": "3",
             "component": "foo1",
             "headline": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/24/fcf66944-3148-49d1-bd47-5509d1d5f7771606213487215-Desktop--2-.jpg"
