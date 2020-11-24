@@ -1,0 +1,41 @@
+{
+    "data": [{
+            "_uid": "1",
+            "component": "foo",
+            "headline": "Foo"
+        },
+        {
+            "_uid": "2",
+            "component": "foo1",
+            "headline": "Foo1"
+        },
+        {
+            "_uid": "3",
+            "component": "foo1",
+            "headline": "A Component"
+        },
+        {
+            "_uid": "4",
+            "component": "foo1",
+            "headline": "Another Component"
+        },
+        {
+            "_uid": "5",
+            "component": "slider",
+            "slides": [
+                {
+                    "img": "https://via.placeholder.com/350x300"
+                },
+                {
+                    "img": "https://via.placeholder.com/450x300"
+                },
+                {
+                    "img": "https://via.placeholder.com/550x300"
+                },
+                {
+                    "img": "https://via.placeholder.com/650x300"
+                }
+                ]
+            }
+        ]
+    }
