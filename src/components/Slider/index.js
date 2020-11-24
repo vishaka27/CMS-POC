@@ -6,7 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function SliderDemo(props) {
     var settings = {
-        dots: true
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        adaptiveHeight: true
     };
     const slides = props.block.slides;
     return (       

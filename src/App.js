@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello Zest !</h1>
+      <h1>ZestMoney</h1>
       {components.map(block => RenderComponents(block))}
     </div>
   );
