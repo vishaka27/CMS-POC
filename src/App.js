@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import RenderComponents from "./components.js";
+import Header from './components/Header';
+
+const logoSrc = 'https://d16pnh712pyiwa.cloudfront.net/wp-content/uploads/2020/05/Zest-Logo_300-98-01-1.png';
 
 import "./App.scss";
 
@@ -16,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header logo={logoSrc} header={'Offers'} />
       {components.map(block => RenderComponents(block))}
     </div>
   );
