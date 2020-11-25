@@ -3,7 +3,7 @@ import React from "react";
 import "./header.scss";
 
 function Header(props) {
-    const { block: { header, logo } } = props;
+    const { header, logo } = props;
     return (
         <div className="header">
             <img src={logo} />
